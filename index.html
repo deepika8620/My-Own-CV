@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="class hero">
+        <nav>
+            <h2 class="logo">Lohith</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#heroc" class="nav-link scrollto">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+            <p class="butoon">Date:<span id="datetime"></span></p>
+             <script>
+             var dt = new Date();
+             document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+             </script>
+        </nav>
+        <div class="content" id="heroc">
+            <h4>Hi,EveryOne My name is</h4>
+            <h1>Lohith<span> Hanumanthu</span></h1>
+            <h3 class="comp-clor"><i>I'am a Competitive Programmer and WebDeveloper</i></span></h3>
+            <div class="newsletter">
+                <form>
+                    <a download="" href="121EC0694_H LOHITH_1.pdf" class="buton">
+                        Download CV
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="about">
+        <div class="main">
+            <img src="img/pic2.png">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5><i>Competitive Programmer</i></h5>
+                <p>
+                    I would describe myself as a collaborative and solution-driven Competitive Programmer and WebDeveloper.
+                    I do participate In contests Conducted by different coding platforms like codechef codeforces.
+                    My commitment to critical thinking and attention to detail have gotten me to where I am today.
+                    I worked on projects using HTML and CSS.
+                </p>
+                <a href="#letid"><button type="button" >Let's Talk</button></a>
+            </div>
+        </div>
+    </section>
+    <div class="service">
+        <div class="title">
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class='bx bx-code' ></i>
+                <h5>Programming</h5>
+                <div class="prog">
+                    <p>Generally participate in contests initialized by platforms using cpp,includes DSA</p>
+                    <p style="text-align: center;">
+                        <button id="open">Read More</button>
+                    </p>
+                    <div class="modal-container" id="modal-container">
+                        <div class="modal">
+                            <h1>hrt</h1>
+                            <button id="close">close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <i class='bx bxs-folder-open'></i>
+                <h5>Technical Skills</h5>
+                <div class="prog">
+                    <p>Intrested In Developing Pages using Html-5,CSS-3</p>
+                    <p style="text-align: center;">
+                        <button id="open">Read More</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class='bx bxl-product-hunt'></i>
+                <h5>Projects</h5>
+                <div class="prog">
+                    <p>Instagram Clone using Html and CSS</p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="letid">
+        <p>Let Me Know You</p>
+        <p style="text-align: center;">
+            <button id="open1">Contact-Me</button>
+        </p>
+    </div>
+    <footer><div class="overlay">
+      </div>
+        <p>You Can Find ME</p> 
+        <div class="social">
+            <a href="mailto: lohith2086.com"><i class='bx bxl-gmail'></i></a>
+            <a href="https://wa.me/8143634264"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.linkedin.com/in/hanumanthu-lohith/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/lohith84"><i class='bx bxl-github' ></i></a>
+        </div>
+        <p class="end"><a href="#"><i class='bx bx-copyright' ></i> Hanumanthu Lohith</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
